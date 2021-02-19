@@ -80,9 +80,7 @@ head
                                     <p>
                                     Continually innovate pandemic interfaces without interactive technologies. Monotonectally transition quality technologies through emerging architectures. Objectively maximize multidisciplinary best practices vis-a-vis user-centric manufactured products. Uniquely synergize excellent benefits whereas unique "outside the box" thinking. Compellingly envisioneer user-centric synergy whereas granular e-tailers.
                                                                           </p>
-
-
-                                  
+  
                             </div>
                             <!-- .welcome-section-->
                         </div>
@@ -99,14 +97,15 @@ head
                 <!-- Footer-->
                     @include('partial.footer')
                 <!-- End of Footer-->
-                
-                <!-- Mobile Navigation-->
-                    @include('partial.mobile-nav')
-                <!-- End of Mobile Navigation-->
 
             </div>
             <!--content-wrapper-->
-        </div>	
+        </div>
+
+            <!-- Mobile Navigation-->
+                @include('partial.mobile-nav')
+            <!-- End of Mobile Navigation-->
+        
     </div>
     <!-- #wrapper -->
 

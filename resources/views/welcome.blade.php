@@ -88,15 +88,16 @@
 					<!-- Footer-->
 						@include('partial.footer')
 					<!-- End of Footer-->
-					
-					<!-- Mobile Navigation-->
-						@include('partial.mobile-nav')
-					<!-- End of Mobile Navigation-->
 
 				</div>
 				<!--content-wrapper-->
 			</div>
 			<!-- offcanvas-pusher -->
+
+			<!-- Mobile Navigation-->
+			@include('partial.mobile-nav')
+			<!-- End of Mobile Navigation-->
+			
 		</div>
 		<!-- #wrapper -->
 

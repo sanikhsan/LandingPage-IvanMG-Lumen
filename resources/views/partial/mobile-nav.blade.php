@@ -4,12 +4,22 @@
     <div>
         <div>
             <ul id="menu">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About us</a></li>
-            <li><a href="service.html">Services</a></li>
-            <li><a href="#">Products</a></li>
-            <li><a href="contact.html">Contact us</a></li>
-            <li><a href="contact.html">Quote</a></li>
+                <li><a href="{{ route('landing') }}">Home</a></li>
+                <li><a href="{{ route('landabout') }}">Tentang Kami</a></li>
+                <li><a href="{{ route('service-interior') }}">Interior Desain</a></li>
+                <li><a href="{{ route('service-ipal') }}">Pengolahan Limbah</a></li>
+                {{-- <li class="dropdown"><a href="service.html">Services</a>
+                        <ul class="dropdown-menu">
+                          <li><a href="article-page.html">Water Heater</a></li>
+                          <li><a href="article-page.html">Bathroom</a></li>
+                          <li><a href="article-page.html">Toilet</a></li>
+                          <li><a href="article-page.html">Tube and Shower</a></li>
+                          <li><a href="article-page.html">Pipes and sweres</a></li>
+                          <li><a href="article-page.html">Drainage</a></li>
+                      </ul>
+                  </li> --}}
+                
+                <li><a href="{{ route('landcontact') }}">Hubungi Kami</a></li>
             </ul>
         </div>
     </div>

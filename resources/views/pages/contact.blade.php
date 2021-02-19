@@ -124,11 +124,12 @@
 					@include('partial.footer')
 					<!-- End of Footer-->
 					
-					<!-- Mobile Navigation-->
-						@include('partial.mobile-nav')
-					<!-- End of Mobile Navigation-->
 			</div>
-        		
+
+	    		<!-- Mobile Navigation-->
+					@include('partial.mobile-nav')
+				<!-- End of Mobile Navigation-->
+
 		</div>
 		<!-- #wrapper -->
 
