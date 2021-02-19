@@ -6,7 +6,7 @@ use App\Admin;
 use App\Sites;
 use App\Seo;
 use App\About;
-use App\carousel;
+use App\Carousel;
 
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Hash;
@@ -30,7 +30,7 @@ class CarouselController extends Controller
 
     public function index(Request $request){
         $token = $request->token;
-        $carousel = carousel::get();
+        $carousel = Carousel::get();
         return view('admin.pages.carousel', compact('token','carousel'));
     }
 
